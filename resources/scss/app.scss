@@ -9,6 +9,32 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
+body{
+    background-color: black;
+}
+h1,
+p {
     color: $text-color;
+    text-transform: capitalize;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+#movie-show{
+    position: relative;
+    h1{
+        text-align: center;
+        padding: 20px 0;
+    };
+   
+    img{
+        height: 800px;
+        position: absolute;
+        top: 100%;
+        left: 30%;
+    }
+    
+   
 }
